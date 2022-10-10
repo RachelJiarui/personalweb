@@ -1,0 +1,205 @@
+a:hover {
+  text-decoration: none;
+  color: #c22590;
+}
+
+body {
+  font-family: arial;
+  color: black;
+}
+
+.contact-icons {
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 27%;
+}
+
+.contact-item {
+  size: 10px;
+  margin-bottom: 5%;
+}
+
+.col-md-6 {
+  padding: 0px;
+}
+
+.desc-sec {
+  padding-top: 17%;
+}
+
+#ending {
+  background-color: white;
+  height: 17vh;
+  line-height: 17vh;
+  padding-left: 10%;
+  vertical-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.ext-item {
+  margin-bottom: 17px;
+  margin-right: 17px;
+}
+
+.ext-title {
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ext-img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ext-desc {
+  font-size: 14px;
+}
+
+#introduction {
+  text-align: center;
+  font-size: 34px;
+  line-height: 90vh;
+  vertical-align: center;
+  height: 90vh;
+}
+
+.icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.name-tag {
+  color: black;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+#scroll-notif {
+  animation: fadeIn 15s;
+  text-align: center;
+  font-style: italic;
+  font-size: 17px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+       opacity: 0;
+    }
+    75% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 1;
+    }
+}
+
+.paragraph {
+  color: black;
+  font-size: 15px;
+}
+
+.proj-btn {
+  background-color: #326da8;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-top: 12px;
+}
+
+.proj-btn:hover {
+  background-color: #194470;
+  color: white;
+}
+
+.proj-date {
+  color: black;
+  font-style: italic;
+}
+
+.proj-desc {
+  color: black;
+  font-size: 14px;
+}
+
+.pfp-img {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  height: auto;
+}
+
+.proj-item {
+  margin-bottom: 17px;
+}
+
+.proj-icon {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.proj-title {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.sticky-property {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0 15px;
+}
+
+.sidebar-wrapper {
+  max-width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  vertical-align: center;
+  text-align: center;
+}
+
+.sidebar-stuff {
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#my-desc {
+  min-height: 1500px;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+#my-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
